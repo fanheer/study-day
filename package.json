@@ -1,6 +1,7 @@
 {
   "name": "study-day",
   "version": "0.1.0",
+  "author": "fanheer",
   "private": true,
   "scripts": {
     "dev": "next dev",
