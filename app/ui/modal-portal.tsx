@@ -10,8 +10,8 @@ interface IModal {
 
 export default function Modal(props: IModal) {
   const { visible, children } = props
-  const portalElement = document.getElementById('portal-root');
   if(!visible) return null
+  const portalElement = document?.getElementById('portal-root');
   if (!portalElement) {
       console.error('无法找到 portal-root 元素');
       return null; // 或者其他的错误处理逻辑
